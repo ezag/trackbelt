@@ -1,0 +1,2 @@
+[messages control]
+disable=missing-docstring,too-few-public-methods
