@@ -5,7 +5,7 @@ Tool for performing various routines via VK.com API.
 
 Installation (develop mode)
 ---------------------------
-::
+.. code-block:: shell
     git clone https://github.com/ezag/vkbelt.git
     cd vkbelt
     virtualenv .env
@@ -22,5 +22,5 @@ Usage
 Authenticate as user id4366451 and download own audios storing them
 at path in form z20160818/q000.mp3
 
-::
+.. code-block:: shell
     vkbelt download-audios 4366451 'z20160818/q{:03}.mp3'
