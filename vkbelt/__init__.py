@@ -3,6 +3,7 @@ from urllib.request import urlopen, urlretrieve
 import argparse
 import codecs
 import json
+import os
 import sys
 
 
@@ -78,7 +79,8 @@ def download_audios(uid, format_string):
 
 
 def list_audios(path):
-    print('list_audios("{}")'.format(path))
+    for filename in os.listdir(path):
+        print(filename)
 
 
 def main():
