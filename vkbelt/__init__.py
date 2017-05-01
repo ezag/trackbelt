@@ -14,6 +14,13 @@ class DownloadAudiosArgs(argparse.ArgumentParser):
         self.add_argument('format_string', action='store')
 
 
+class ListAudiosArgs(argparse.ArgumentParser):
+    def __init__(self):
+        super(ListAudiosArgs, self).__init__()
+        self.add_argument('command', action='store')
+        self.add_argument('path', action='store')
+
+
 class Application(object):
     APP_ID = 4301930
     OAUTH_URL = 'https://oauth.vk.com/authorize'
@@ -70,10 +77,17 @@ def download_audios(uid, format_string):
         urlretrieve(audio['url'], destination)
 
 
+def list_audios(path):
+    print('list_audios("{}")'.format(path))
+
+
 def main():
     command = sys.argv[1]
     if command == 'download-audios':
         args = DownloadAudiosArgs().parse_args()
         download_audios(args.uid, args.format_string)
+    if command == 'list-audios':
+        args = ListAudiosArgs().parse_args()
+        list_audios(args.path)
     else:
         print('Unknown command "{}"'.format(command))
