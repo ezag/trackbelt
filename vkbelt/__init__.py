@@ -3,11 +3,12 @@ from urllib.request import urlopen, urlretrieve
 import argparse
 import codecs
 import json
+import sys
 
 
-class ArgumentParser(argparse.ArgumentParser):
+class DownloadAudiosArgs(argparse.ArgumentParser):
     def __init__(self):
-        super(ArgumentParser, self).__init__()
+        super(DownloadAudiosArgs, self).__init__()
         self.add_argument('command', action='store')
         self.add_argument('uid', action='store')
         self.add_argument('format_string', action='store')
@@ -70,8 +71,9 @@ def download_audios(uid, format_string):
 
 
 def main():
-    args = ArgumentParser().parse_args()
-    if args.command == 'download-audios':
+    command = sys.argv[1]
+    if command == 'download-audios':
+        args = DownloadAudiosArgs().parse_args()
         download_audios(args.uid, args.format_string)
     else:
-        print('Unknown command "{}"'.format(args.command))
+        print('Unknown command "{}"'.format(command))
