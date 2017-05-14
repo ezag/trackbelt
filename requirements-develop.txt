@@ -1,12 +1,14 @@
 appdirs==1.4.3
 astroid==1.4.8
 decorator==4.0.10
+discogs-client==2.2.1
 eyeD3==0.7.11
 ipython==5.1.0
 ipython-genutils==0.1.0
 isort==4.2.5
 lazy-object-proxy==1.2.2
 mccabe==0.5.2
+oauthlib==2.0.2
 packaging==16.8
 pexpect==4.2.0
 pickleshare==0.7.4
