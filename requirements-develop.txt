@@ -15,6 +15,7 @@ ptyprocess==0.5.1
 Pygments==2.1.3
 pylint==1.6.4
 pyparsing==2.2.0
+requests==2.14.2
 setuptools-lint==0.5
 simplegeneric==0.8.1
 six==1.10.0
