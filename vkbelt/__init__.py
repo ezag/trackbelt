@@ -22,6 +22,14 @@ class ListAudiosArgs(argparse.ArgumentParser):
         self.add_argument('path', action='store')
 
 
+class SearchTrackArgs(argparse.ArgumentParser):
+    def __init__(self):
+        super(SearchTrackArgs, self).__init__()
+        self.add_argument('command', action='store')
+        self.add_argument('artist', action='store')
+        self.add_argument('title', action='store')
+
+
 class Application(object):
     APP_ID = 4301930
     OAUTH_URL = 'https://oauth.vk.com/authorize'
@@ -83,6 +91,10 @@ def list_audios(path):
         print(filename)
 
 
+def search_track(artist, title):
+    print('{} - {}'.format(artist, title))
+
+
 def main():
     command = sys.argv[1]
     if command == 'download-audios':
@@ -91,5 +103,8 @@ def main():
     if command == 'list-audios':
         args = ListAudiosArgs().parse_args()
         list_audios(args.path)
+    if command == 'search-track':
+        args = SearchTrackArgs().parse_args()
+        search_track(args.artist, args.title)
     else:
         print('Unknown command "{}"'.format(command))
