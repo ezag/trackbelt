@@ -99,17 +99,26 @@ def list_audios(path):
 
 
 def search_track(discogs, artist, title, duration=None):
-    results = discogs.search(artist=artist, track=title)
-    results = list(results)
-    return dict(
-        artist='Tricky',
-        title='Forget',
-        duration='3:46',
-        discogs=dict(
-            release_id=5914226,
-            track_position=3,
-        )
-    )
+    results = discogs.search(type='release', artist=artist, track=title)
+    for result in results:
+        matching_artists = [a for a in result.artists
+                            if a.name.lower() == artist.lower()]
+        if not matching_artists:
+            continue
+        assert len(matching_artists) == 1
+        matching_artist = matching_artists[0]
+        for track in result.tracklist:
+            if track.title.lower() != title.lower():
+                continue
+            return dict(
+                artist=matching_artist.name,
+                title=track.title,
+                duration=track.duration,
+                discogs=dict(
+                    release_id=result.id,
+                    track_position=int(track.position),
+                )
+            )
 
 
 def cmd_search_track(artist, title):

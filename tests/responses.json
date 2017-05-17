@@ -1,6 +1,6 @@
 {
   "/database/search": {
-    "artist=tricky&track=forget&page=1&per_page=50": {
+    "type=release&artist=tricky&track=forget&page=1&per_page=50": {
       "pagination": {
         "items": 2,
         "page": 1,
@@ -76,6 +76,183 @@
           "year": "2013"
         }
       ]
+    }
+  },
+  "/releases/5914226": {
+    "": {
+      "artists": [
+        {
+          "anv": "",
+          "id": 3140,
+          "join": "",
+          "name": "Tricky",
+          "resource_url": "https://api.discogs.com/artists/3140",
+          "role": "",
+          "tracks": ""
+        }
+      ],
+      "community": {
+        "contributors": [
+          {
+            "resource_url": "https://api.discogs.com/users/FerdinandF",
+            "username": "FerdinandF"
+          },
+          {
+            "resource_url": "https://api.discogs.com/users/DDWinters",
+            "username": "DDWinters"
+          }
+        ],
+        "data_quality": "Needs Vote",
+        "have": 10,
+        "rating": {
+          "average": 4.0,
+          "count": 4
+        },
+        "status": "Accepted",
+        "submitter": {
+          "resource_url": "https://api.discogs.com/users/FerdinandF",
+          "username": "FerdinandF"
+        },
+        "want": 4
+      },
+      "companies": [],
+      "country": "UK & Europe",
+      "data_quality": "Needs Vote",
+      "date_added": "2014-07-24T00:49:32-07:00",
+      "date_changed": "2015-05-21T09:37:26-07:00",
+      "extraartists": [],
+      "format_quantity": 0,
+      "formats": [
+        {
+          "descriptions": [
+            "MP3",
+            "EP"
+          ],
+          "name": "File",
+          "qty": "4",
+          "text": "320 kbps"
+        }
+      ],
+      "genres": [
+        "Electronic",
+        "Hip Hop"
+      ],
+      "id": 5914226,
+      "identifiers": [],
+      "images": [
+        {
+          "height": 333,
+          "resource_url": "https://api-img.discogs.com/q2yPUmcFPfQBL0izGlQCxzZgYmg=/fit-in/333x333/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5914226-1406188173-3573.jpeg.jpg",
+          "type": "primary",
+          "uri": "https://api-img.discogs.com/q2yPUmcFPfQBL0izGlQCxzZgYmg=/fit-in/333x333/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5914226-1406188173-3573.jpeg.jpg",
+          "uri150": "https://api-img.discogs.com/Mejj70jUqGNl_Jf5ZLctCsxkh9o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5914226-1406188173-3573.jpeg.jpg",
+          "width": 333
+        }
+      ],
+      "labels": [
+        {
+          "catno": "K7308EP1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 259,
+          "name": "Studio !K7",
+          "resource_url": "https://api.discogs.com/labels/259"
+        },
+        {
+          "catno": "none",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 551105,
+          "name": "False Idols",
+          "resource_url": "https://api.discogs.com/labels/551105"
+        }
+      ],
+      "lowest_price": null,
+      "num_for_sale": 0,
+      "released": "2013-03-00",
+      "released_formatted": "Mar 2013",
+      "resource_url": "https://api.discogs.com/releases/5914226",
+      "series": [],
+      "status": "Accepted",
+      "styles": [
+        "Trip Hop",
+        "Hip Hop",
+        "Downtempo"
+      ],
+      "thumb": "https://api-img.discogs.com/Mejj70jUqGNl_Jf5ZLctCsxkh9o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5914226-1406188173-3573.jpeg.jpg",
+      "title": "Matter Of Time EP",
+      "tracklist": [
+        {
+          "duration": "2:50",
+          "extraartists": [
+            {
+              "anv": "",
+              "id": 150975,
+              "join": "",
+              "name": "Liz Densmore",
+              "resource_url": "https://api.discogs.com/artists/150975",
+              "role": "Vocals",
+              "tracks": ""
+            }
+          ],
+          "position": "1",
+          "title": "Matter Of Time ",
+          "type_": "track"
+        },
+        {
+          "duration": "2:57",
+          "extraartists": [
+            {
+              "anv": "",
+              "id": 1016775,
+              "join": "",
+              "name": "Francesca Belmonte",
+              "resource_url": "https://api.discogs.com/artists/1016775",
+              "role": "Vocals",
+              "tracks": ""
+            }
+          ],
+          "position": "2",
+          "title": "I Could",
+          "type_": "track"
+        },
+        {
+          "duration": "3:46",
+          "extraartists": [
+            {
+              "anv": "",
+              "id": 2516477,
+              "join": "",
+              "name": "FiFi Rong",
+              "resource_url": "https://api.discogs.com/artists/2516477",
+              "role": "Vocals",
+              "tracks": ""
+            }
+          ],
+          "position": "3",
+          "title": "Forget",
+          "type_": "track"
+        },
+        {
+          "duration": "3:39",
+          "extraartists": [
+            {
+              "anv": "",
+              "id": 3925885,
+              "join": "",
+              "name": "Pavement Grammar",
+              "resource_url": "https://api.discogs.com/artists/3925885",
+              "role": "Vocals",
+              "tracks": ""
+            }
+          ],
+          "position": "4",
+          "title": "Frenglish",
+          "type_": "track"
+        }
+      ],
+      "uri": "https://www.discogs.com/Tricky-Matter-Of-Time-EP/release/5914226",
+      "year": 2013
     }
   }
 }
