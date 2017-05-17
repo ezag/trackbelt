@@ -99,6 +99,8 @@ def list_audios(path):
 
 
 def search_track(discogs, artist, title, duration=None):
+    results = discogs.search(artist=artist, track=title)
+    results = list(results)
     return dict(
         artist='Tricky',
         title='Forget',
