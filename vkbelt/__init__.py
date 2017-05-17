@@ -98,15 +98,26 @@ def list_audios(path):
         print(filename)
 
 
-def search_track(artist, title):
+def search_track(discogs, artist, title, duration=None):
+    return dict(
+        artist='Tricky',
+        title='Forget',
+        duration='3:46',
+        discogs=dict(
+            release_id=5914226,
+            track_position=3,
+        )
+    )
+
+
+def cmd_search_track(artist, title):
     log.info('Searching "%s - %s"', artist, title)
     with open(os.path.join(XDG_CONFIG_HOME, 'vkbelt', 'config.yaml')) as f:
         config = yaml.load(f)
     discogs = discogs_client.Client(
         'vkbelt/1.0', user_token=config['discogs']['user_token'])
-    results = discogs.search(artist=artist, track=title)
-    for index, result in enumerate(results, 1):
-        log.info('Result #%d:\n%s', index, json.dumps(result.data, indent=2))
+    result = search_track(discogs, artist, title)
+    log.info('Result:\n%s', json.dumps(result, indent=2))
 
 
 def main():
@@ -119,6 +130,6 @@ def main():
         list_audios(args.path)
     if command == 'search-track':
         args = SearchTrackArgs().parse_args()
-        search_track(args.artist, args.title)
+        cmd_search_track(args.artist, args.title)
     else:
         print('Unknown command "{}"'.format(command))
