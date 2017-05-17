@@ -3,9 +3,16 @@ from urllib.request import urlopen, urlretrieve
 import argparse
 import codecs
 import json
+import logging
 import os
 import sys
 
+import discogs_client
+import yaml
+from xdg import XDG_CONFIG_HOME
+
+logging.basicConfig(level=logging.INFO)
+log = logging.getLogger(__name__)
 
 class DownloadAudiosArgs(argparse.ArgumentParser):
     def __init__(self):
@@ -92,7 +99,14 @@ def list_audios(path):
 
 
 def search_track(artist, title):
-    print('{} - {}'.format(artist, title))
+    log.info('Searching "%s - %s"', artist, title)
+    with open(os.path.join(XDG_CONFIG_HOME, 'vkbelt', 'config.yaml')) as f:
+        config = yaml.load(f)
+    discogs = discogs_client.Client(
+        'vkbelt/1.0', user_token=config['discogs']['user_token'])
+    results = discogs.search(artist=artist, track=title)
+    for index, result in enumerate(results, 1):
+        log.info('Result #%d:\n%s', index, json.dumps(result.data, indent=2))
 
 
 def main():
