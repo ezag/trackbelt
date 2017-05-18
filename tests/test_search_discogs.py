@@ -1,7 +1,7 @@
 from urllib.parse import parse_qs, urlparse
 import yaml
 import json
-import os.path
+import os
 
 from xdg import XDG_CONFIG_HOME
 import discogs_client
@@ -10,11 +10,7 @@ import pytest
 
 from vkbelt import search_track
 
-
 real_request = requests.request
-with open(os.path.join(os.path.dirname(__file__), 'responses.json')) as f:
-    RESPONSES = json.load(f)
-
 
 def mock_request(method, raw_url, **kwargs):
     url = urlparse(raw_url)
@@ -23,29 +19,34 @@ def mock_request(method, raw_url, **kwargs):
     assert url.netloc == 'api.discogs.com'
     assert url.params == ''
     assert url.fragment == ''
-    response = requests.Response()
+    path = os.path.join(
+        os.path.dirname(__file__), 'responses', url.netloc,
+        url.path.strip('/'), url.query, '.'.join((method.lower(), 'json')))
     try:
-        response._content = json.dumps(
-            RESPONSES[url.path][url.query]).encode('utf-8')
-        response.status_code = 200
-    except KeyError:
+        with open(path) as f:
+            data = json.load(f)
+    except FileNotFoundError:
         with open(os.path.join(XDG_CONFIG_HOME, 'vkbelt', 'config.yaml')) as f:
             config = yaml.load(f)
+        if 'params' not in kwargs:
+            kwargs['params'] = {}
         kwargs['params']['token'] = config['discogs']['user_token']
-        response = real_request(method, raw_url, **kwargs)
-        json_response = json.dumps({url.path: {url.query: response.json()}},
-                                   sort_keys=True, indent=2)
-        with open('test-real-response.json', 'w') as f:
-            f.write(json_response)
-        pytest.fail('Missing test data for {}\n\n{}'.format(
-            raw_url, json_response))
-    else:
-        return response
+        data = real_request(method, raw_url, **kwargs).json()
+        os.makedirs(os.path.dirname(path))
+        with open(path, 'w') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2, sort_keys=True)
+        pytest.fail(
+            'Missing test data for "{} {}" have been written to "{}"'.format(
+                method, raw_url, path))
+    response = requests.Response()
+    response._content = json.dumps(data).encode('utf-8')
+    response.status_code = 200
+    return response
 
 
 def test_discogs_search_basic(monkeypatch):
     monkeypatch.setattr(requests, 'request', mock_request)
-    discogs = discogs_client.Client('vkbelt', user_token='qwe')
+    discogs = discogs_client.Client('vkbelt')
     result = search_track(discogs, 'tricky', 'forget')
     assert result == dict(
         artist='Tricky',

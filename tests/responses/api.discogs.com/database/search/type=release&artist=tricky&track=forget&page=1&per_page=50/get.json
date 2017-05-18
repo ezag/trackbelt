@@ -1,0 +1,77 @@
+{
+  "pagination": {
+    "items": 2,
+    "page": 1,
+    "pages": 1,
+    "per_page": 50,
+    "urls": {}
+  },
+  "results": [
+    {
+      "barcode": [],
+      "catno": "K7308EP1",
+      "community": {
+        "have": 10,
+        "want": 4
+      },
+      "country": "UK & Europe",
+      "format": [
+        "File",
+        "MP3",
+        "EP"
+      ],
+      "genre": [
+        "Electronic",
+        "Hip Hop"
+      ],
+      "id": 5914226,
+      "label": [
+        "Studio !K7",
+        "False Idols"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5914226",
+      "style": [
+        "Trip Hop",
+        "Hip Hop",
+        "Downtempo"
+      ],
+      "thumb": "https://api-img.discogs.com/Mejj70jUqGNl_Jf5ZLctCsxkh9o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5914226-1406188173-3573.jpeg.jpg",
+      "title": "Tricky - Matter Of Time EP",
+      "type": "release",
+      "uri": "/Tricky-Matter-Of-Time-EP/release/5914226",
+      "year": "2013"
+    },
+    {
+      "barcode": [],
+      "catno": "none",
+      "community": {
+        "have": 3,
+        "want": 1
+      },
+      "country": "Germany",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album"
+      ],
+      "genre": [
+        "Rock"
+      ],
+      "id": 7720017,
+      "label": [
+        "Not On Label",
+        "New Music Distribution"
+      ],
+      "resource_url": "https://api.discogs.com/releases/7720017",
+      "style": [
+        "Alternative Rock",
+        "Stoner Rock"
+      ],
+      "thumb": "https://api-img.discogs.com/G3YbuFwr3Fzafazn3_UkDSYIkl0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7720017-1447402971-7978.jpeg.jpg",
+      "title": "Tricky Lobsters - The Blue Hospital Conspiracy",
+      "type": "release",
+      "uri": "/Tricky-Lobsters-The-Blue-Hospital-Conspiracy/release/7720017",
+      "year": "2013"
+    }
+  ]
+}
