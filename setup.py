@@ -1,12 +1,12 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='vkbelt',
+    name='trackbelt',
     version='1.0.dev0',
-    description='Tool for performing various routines via VK.com API',
+    description='Search music tracks by title, artist and duration',
     author='Eugen Zagorodniy',
     author_email='e.zagorodniy@gmail.com',
-    url='https://github.com/ezag/vkbelt',
+    url='https://github.com/ezag/trackbelt',
     packages=find_packages(),
     install_requires=[
         'click',
@@ -19,5 +19,7 @@ setup(
             'pytest',
         ],
     ),
-    entry_points=dict(console_scripts=['trackbelt = vkbelt:cmd_search_track']),
+    entry_points=dict(console_scripts=[
+        'trackbelt = trackbelt:cmd_search_track',
+    ]),
 )

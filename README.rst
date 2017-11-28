@@ -1,26 +1,34 @@
-vkbelt
-======
+trackbelt
+=========
 
-Tool for performing various routines via VK.com API.
+Search music tracks by title, artist and duration
 
-Installation (develop mode)
----------------------------
-.. code-block:: shell
-    git clone https://github.com/ezag/vkbelt.git
-    cd vkbelt
-    virtualenv .env
-    source .env/bin/activate
-    pip install -r requirements-develop.txt
-    python setup.py sdist
-    python setup.py develop
-    python setup.py lint
-    vkbelt
+Installation for development
+----------------------------
+
+.. code-block::
+
+    git clone https://github.com/ezag/trackbelt.git
+    python -m venv env
+    env/bin/activate
+    pip install -r requirements.txt
+    pip install -e '.[testing]'
+    pytest
 
 Usage
 -----
 
-Authenticate as user id4366451 and download own audios storing them
-at path in form z20160818/q000.mp3
+.. code-block::
 
-.. code-block:: shell
-    vkbelt download-audios 4366451 'z20160818/q{:03}.mp3'
+    $ trackbelt tricky forget
+    INFO:trackbelt:Searching "tricky - forget"
+    INFO:trackbelt:Result:
+    {
+      "artist": "Tricky",
+      "title": "Forget",
+      "duration": "3:46",
+      "discogs": {
+        "release_id": 5914226,
+        "track_position": 3
+      }
+    }
