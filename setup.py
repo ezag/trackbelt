@@ -8,5 +8,16 @@ setup(
     author_email='e.zagorodniy@gmail.com',
     url='https://github.com/ezag/vkbelt',
     packages=find_packages(),
+    install_requires=[
+        'click',
+        'discogs-client',
+        'PyYAML',
+        'xdg',
+    ],
+    extras_require=dict(
+        testing=[
+            'pytest',
+        ],
+    ),
     entry_points=dict(console_scripts=['trackbelt = vkbelt:cmd_search_track']),
 )
