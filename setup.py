@@ -8,5 +8,5 @@ setup(
     author_email='e.zagorodniy@gmail.com',
     url='https://github.com/ezag/vkbelt',
     packages=find_packages(),
-    entry_points=dict(console_scripts=['vkbelt = vkbelt:main']),
+    entry_points=dict(console_scripts=['trackbelt = vkbelt:cmd_search_track']),
 )
