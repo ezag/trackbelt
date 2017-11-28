@@ -1,5 +1,6 @@
 appdirs==1.4.3
 astroid==1.4.8
+click==6.7
 decorator==4.0.10
 discogs-client==2.2.1
 eyeD3==0.7.11
