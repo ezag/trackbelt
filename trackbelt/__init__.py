@@ -16,11 +16,20 @@ def decompose_query(query):
     return dict(
         artist=artist,
         title=title,
-        duration=None,
     )
 
 
-def search_track(discogs, artist, title, duration=None):
+def search_track(discogs, query):
+    kwargs = decompose_query(query)
+    log.info('Decomposed query: %s', json.dumps(kwargs, indent=2))
+    discogs_result = search_discogs(discogs, **kwargs)
+    return dict(
+        query=query,
+        discogs=discogs_result,
+    )
+
+
+def search_discogs(discogs, artist, title):
     results = discogs.search(type='release', artist=artist, track=title)
     for result in results:
         matching_artists = [a for a in result.artists
@@ -46,12 +55,10 @@ def search_track(discogs, artist, title, duration=None):
 @click.command()
 @click.argument('query')
 def cmd_search_track(query):
-    kwargs = decompose_query(query)
-    log.info('Searching "%s", decomposed as: %s',
-             query, json.dumps(kwargs, indent=2))
+    log.info('Searching "%s"', query)
     with open(os.path.join(XDG_CONFIG_HOME, 'vkbelt', 'config.yaml')) as f:
         config = yaml.load(f)
     discogs = discogs_client.Client(
         'trackbelt/1.0', user_token=config['discogs']['user_token'])
-    result = search_track(discogs, **kwargs)
+    result = search_track(discogs, query)
     log.info('Result: %s', json.dumps(result, indent=2))

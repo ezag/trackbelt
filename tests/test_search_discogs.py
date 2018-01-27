@@ -8,7 +8,7 @@ import discogs_client
 import requests
 import pytest
 
-from trackbelt import search_track
+from trackbelt import search_discogs
 
 real_request = requests.request
 
@@ -47,7 +47,7 @@ def mock_request(method, raw_url, **kwargs):
 def test_discogs_search_basic(monkeypatch):
     monkeypatch.setattr(requests, 'request', mock_request)
     discogs = discogs_client.Client('vkbelt')
-    result = search_track(discogs, 'tricky', 'forget')
+    result = search_discogs(discogs, 'tricky', 'forget')
     assert result == dict(
         artist='Tricky',
         title='Forget',
