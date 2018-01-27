@@ -1,10 +1,13 @@
+from urllib.parse import urlencode, urlunparse
 import json
 import logging
 import os.path
 
+from bs4 import BeautifulSoup
 from xdg import XDG_CONFIG_HOME
 import click
 import discogs_client
+import requests
 import yaml
 
 logging.basicConfig(level=logging.INFO)
@@ -23,9 +26,11 @@ def search_track(discogs, query):
     kwargs = decompose_query(query)
     log.info('Decomposed query: %s', json.dumps(kwargs, indent=2))
     discogs_result = search_discogs(discogs, **kwargs)
+    soundcloud_result = search_soundcloud(**kwargs)
     return dict(
         query=query,
         discogs=discogs_result,
+        soundcloud=soundcloud_result,
     )
 
 
@@ -50,6 +55,19 @@ def search_discogs(discogs, artist, title):
                     track_position=int(track.position),
                 )
             )
+
+
+def search_soundcloud(artist, title):
+    results = [(row.a.get_text(), row.a['href']) for row in
+        BeautifulSoup(requests.get(urlunparse((
+            'https', 'soundcloud.com', 'search', None,
+            urlencode(dict(q='{} - {}'.format(artist, title))), None,
+        ))).content, 'html.parser').find_all('ul')[1].find_all('li')]
+    title, url = results[0]
+    return dict(
+        title=title,
+        url=url,
+    )
 
 
 @click.command()
