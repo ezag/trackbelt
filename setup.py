@@ -9,6 +9,7 @@ setup(
     url='https://github.com/ezag/trackbelt',
     packages=find_packages(),
     install_requires=[
+        'beautifulsoup4',
         'click',
         'discogs-client',
         'PyYAML',
