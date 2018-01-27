@@ -12,6 +12,7 @@ setup(
         'click',
         'discogs-client',
         'PyYAML',
+        'soundcloud',
         'xdg',
     ],
     extras_require=dict(
