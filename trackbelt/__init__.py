@@ -50,10 +50,8 @@ def search_discogs(discogs, artist, title):
                 artist=matching_artist.name,
                 title=track.title,
                 duration=track.duration,
-                discogs=dict(
-                    release_id=result.id,
-                    track_position=int(track.position),
-                )
+                release_id=result.id,
+                track_position=int(track.position),
             )
 
 
