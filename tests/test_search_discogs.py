@@ -8,7 +8,7 @@ import discogs_client
 import requests
 import pytest
 
-from vkbelt import search_track
+from trackbelt import search_track
 
 real_request = requests.request
 

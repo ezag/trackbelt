@@ -11,6 +11,15 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
 
+def decompose_query(query):
+    artist, title = query.split(' - ')
+    return dict(
+        artist=artist,
+        title=title,
+        duration=None,
+    )
+
+
 def search_track(discogs, artist, title, duration=None):
     results = discogs.search(type='release', artist=artist, track=title)
     for result in results:
@@ -35,13 +44,14 @@ def search_track(discogs, artist, title, duration=None):
 
 
 @click.command()
-@click.argument('artist')
-@click.argument('title')
-def cmd_search_track(artist, title):
-    log.info('Searching "%s - %s"', artist, title)
+@click.argument('query')
+def cmd_search_track(query):
+    kwargs = decompose_query(query)
+    log.info('Searching "%s", decomposed as: %s',
+             query, json.dumps(kwargs, indent=2))
     with open(os.path.join(XDG_CONFIG_HOME, 'vkbelt', 'config.yaml')) as f:
         config = yaml.load(f)
     discogs = discogs_client.Client(
-        'vkbelt/1.0', user_token=config['discogs']['user_token'])
-    result = search_track(discogs, artist, title)
-    log.info('Result:\n%s', json.dumps(result, indent=2))
+        'trackbelt/1.0', user_token=config['discogs']['user_token'])
+    result = search_track(discogs, **kwargs)
+    log.info('Result: %s', json.dumps(result, indent=2))
