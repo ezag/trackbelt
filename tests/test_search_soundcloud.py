@@ -42,3 +42,9 @@ def test_soundcloud_search_basic(monkeypatch):
         title='EVVY - Collide (Keljet Remix)',
         url='/keljet/evvy-collide-keljet-remix-1',
     )
+
+
+def test_soundcloud_search_empty(monkeypatch):
+    monkeypatch.setattr(requests, 'get', mock_request)
+    result = search_soundcloud('nonexistentartist', 'nonexistenttitle')
+    assert result is None

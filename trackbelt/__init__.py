@@ -56,11 +56,14 @@ def search_discogs(discogs, artist, title):
 
 
 def search_soundcloud(artist, title):
-    results = [(row.a.get_text(), row.a['href']) for row in
-        BeautifulSoup(requests.get(urlunparse((
-            'https', 'soundcloud.com', 'search', None,
-            urlencode(dict(q='{} - {}'.format(artist, title))), None,
-        ))).content, 'html.parser').find_all('ul')[1].find_all('li')]
+    try:
+        results = [(row.a.get_text(), row.a['href']) for row in
+            BeautifulSoup(requests.get(urlunparse((
+                'https', 'soundcloud.com', 'search', None,
+                urlencode(dict(q='{} - {}'.format(artist, title))), None,
+            ))).content, 'html.parser').find_all('ul')[1].find_all('li')]
+    except IndexError:
+        return None
     title, url = results[0]
     return dict(
         title=title,
