@@ -3,12 +3,10 @@ import yaml
 import json
 import os
 
-from xdg import XDG_CONFIG_HOME
-import discogs_client
 import requests
 import pytest
 
-from trackbelt import search_discogs
+from trackbelt import config, search_discogs
 
 real_request = requests.request
 
@@ -26,8 +24,6 @@ def mock_request(method, raw_url, **kwargs):
         with open(path) as f:
             data = json.load(f)
     except FileNotFoundError:
-        with open(os.path.join(XDG_CONFIG_HOME, 'vkbelt', 'config.yaml')) as f:
-            config = yaml.load(f)
         if 'params' not in kwargs:
             kwargs['params'] = {}
         kwargs['params']['token'] = config['discogs']['user_token']
@@ -46,8 +42,7 @@ def mock_request(method, raw_url, **kwargs):
 
 def test_discogs_search_basic(monkeypatch):
     monkeypatch.setattr(requests, 'request', mock_request)
-    discogs = discogs_client.Client('vkbelt')
-    result = search_discogs(discogs, 'tricky', 'forget')
+    result = search_discogs('tricky', 'forget')
     assert result == dict(
         artist='Tricky',
         title='Forget',
