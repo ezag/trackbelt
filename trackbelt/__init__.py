@@ -85,9 +85,17 @@ def search_soundcloud(artist, title):
 
 
 @click.command()
-@click.argument('query')
-def cmd_search_track(query):
-    log.info('Searching "%s"', query)
+@click.option('-q')
+@click.option('-f',)
+def cmd_search_track(q, f):
+    if q is not None and f is not None:
+        log.error('Either q of f please')
+        return
+    if q is not None:
+        log.info('Searching "%s"', q)
+        result = search_track(q)
+        log.info('Result: %s', json.dumps(result, indent=2))
+    if f is not None:
+        log.info('Reading inputs from "%s"', f)
+        # TODO: read playlist from file
 
-    result = search_track(query)
-    log.info('Result: %s', json.dumps(result, indent=2))
