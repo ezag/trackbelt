@@ -1,0 +1,289 @@
+{
+  "artists": [
+    {
+      "anv": "",
+      "id": 2613349,
+      "join": "Feat.",
+      "name": "Alle Farben",
+      "resource_url": "https://api.discogs.com/artists/2613349",
+      "role": "",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3841511,
+      "join": "",
+      "name": "Graham Candy",
+      "resource_url": "https://api.discogs.com/artists/3841511",
+      "role": "",
+      "tracks": ""
+    }
+  ],
+  "artists_sort": "Alle Farben Feat. Graham Candy",
+  "community": {
+    "contributors": [
+      {
+        "resource_url": "https://api.discogs.com/users/knaufbln",
+        "username": "knaufbln"
+      },
+      {
+        "resource_url": "https://api.discogs.com/users/BlackPanther",
+        "username": "BlackPanther"
+      },
+      {
+        "resource_url": "https://api.discogs.com/users/vagdim",
+        "username": "vagdim"
+      }
+    ],
+    "data_quality": "Correct",
+    "have": 91,
+    "rating": {
+      "average": 3.53,
+      "count": 17
+    },
+    "status": "Accepted",
+    "submitter": {
+      "resource_url": "https://api.discogs.com/users/knaufbln",
+      "username": "knaufbln"
+    },
+    "want": 40
+  },
+  "companies": [],
+  "country": "Germany",
+  "data_quality": "Correct",
+  "date_added": "2014-07-31T02:02:26-07:00",
+  "date_changed": "2015-01-04T17:47:57-08:00",
+  "estimated_weight": 230,
+  "extraartists": [
+    {
+      "anv": "",
+      "id": 3841511,
+      "join": "",
+      "name": "Graham Candy",
+      "resource_url": "https://api.discogs.com/artists/3841511",
+      "role": "Lyrics By",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3845146,
+      "join": "",
+      "name": "Andreas Huber (4)",
+      "resource_url": "https://api.discogs.com/artists/3845146",
+      "role": "Written-By, Producer, Lyrics By",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3810105,
+      "join": "",
+      "name": "Frans Zimmer",
+      "resource_url": "https://api.discogs.com/artists/3810105",
+      "role": "Written-By, Producer, Lyrics By",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3843684,
+      "join": "",
+      "name": "Jan Hammele",
+      "resource_url": "https://api.discogs.com/artists/3843684",
+      "role": "Written-By, Producer, Lyrics By",
+      "tracks": ""
+    }
+  ],
+  "format_quantity": 1,
+  "formats": [
+    {
+      "descriptions": [
+        "45 RPM",
+        "12\"",
+        "Maxi-Single",
+        "Picture Disc",
+        "Limited Edition"
+      ],
+      "name": "Vinyl",
+      "qty": "1"
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "id": 5937277,
+  "identifiers": [
+    {
+      "description": "Text",
+      "type": "Barcode",
+      "value": "8 88430 92871 8"
+    },
+    {
+      "type": "Rights Society",
+      "value": "BIEM/GEMA"
+    },
+    {
+      "type": "Label Code",
+      "value": "LC 32820"
+    }
+  ],
+  "images": [
+    {
+      "height": 599,
+      "resource_url": "https://img.discogs.com/w8Xiy6O-IF6PLJ488YT4B2dap04=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5937277-1406797357-5349.jpeg.jpg",
+      "type": "primary",
+      "uri": "https://img.discogs.com/w8Xiy6O-IF6PLJ488YT4B2dap04=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5937277-1406797357-5349.jpeg.jpg",
+      "uri150": "https://img.discogs.com/Y5BOqTPmr74865zOgxaOwKQ3TiQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5937277-1406797357-5349.jpeg.jpg",
+      "width": 600
+    },
+    {
+      "height": 700,
+      "resource_url": "https://img.discogs.com/Ye-072hR_uuWWHETkHhlYw9QKA4=/fit-in/310x700/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5937277-1406797347-4390.jpeg.jpg",
+      "type": "secondary",
+      "uri": "https://img.discogs.com/Ye-072hR_uuWWHETkHhlYw9QKA4=/fit-in/310x700/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5937277-1406797347-4390.jpeg.jpg",
+      "uri150": "https://img.discogs.com/kGDjU2y2_aSmoy5tNg5ApjcF7eo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5937277-1406797347-4390.jpeg.jpg",
+      "width": 310
+    },
+    {
+      "height": 600,
+      "resource_url": "https://img.discogs.com/dsCMcdoZ4-EZtIiEEFsYHjzBm1k=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5937277-1406797367-7594.jpeg.jpg",
+      "type": "secondary",
+      "uri": "https://img.discogs.com/dsCMcdoZ4-EZtIiEEFsYHjzBm1k=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5937277-1406797367-7594.jpeg.jpg",
+      "uri150": "https://img.discogs.com/Bi1r-zbw9LeHE2bbaSJV-jatB8U=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5937277-1406797367-7594.jpeg.jpg",
+      "width": 600
+    }
+  ],
+  "labels": [
+    {
+      "catno": "88843092871",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 710867,
+      "name": "Guesstimate",
+      "resource_url": "https://api.discogs.com/labels/710867"
+    },
+    {
+      "catno": "88843092871",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 697351,
+      "name": "Synesthesia (2)",
+      "resource_url": "https://api.discogs.com/labels/697351"
+    },
+    {
+      "catno": "88843092871",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 114203,
+      "name": "B1 Recordings",
+      "resource_url": "https://api.discogs.com/labels/114203"
+    }
+  ],
+  "lowest_price": 15.0,
+  "master_id": 702664,
+  "master_url": "https://api.discogs.com/masters/702664",
+  "num_for_sale": 2,
+  "released": "2014",
+  "released_formatted": "2014",
+  "resource_url": "https://api.discogs.com/releases/5937277",
+  "series": [],
+  "status": "Accepted",
+  "styles": [
+    "Deep House",
+    "Tech House"
+  ],
+  "thumb": "https://img.discogs.com/Y5BOqTPmr74865zOgxaOwKQ3TiQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5937277-1406797357-5349.jpeg.jpg",
+  "title": "She Moves (Far Away)",
+  "tracklist": [
+    {
+      "duration": "",
+      "position": "A1",
+      "title": "She Moves (Far Away) (Club Mix)",
+      "type_": "track"
+    },
+    {
+      "duration": "",
+      "position": "A2",
+      "title": "She Moves (Far Away) (Extended Mix)",
+      "type_": "track"
+    },
+    {
+      "duration": "",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 3329373,
+          "join": "",
+          "name": "Bakermat",
+          "resource_url": "https://api.discogs.com/artists/3329373",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "B1",
+      "title": "She Moves (Far Away) (Bakermat Remix)",
+      "type_": "track"
+    },
+    {
+      "duration": "",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 3365389,
+          "join": "",
+          "name": "Lexer",
+          "resource_url": "https://api.discogs.com/artists/3365389",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "B2",
+      "title": "She Moves (Far Away) (Lexer Remix)",
+      "type_": "track"
+    }
+  ],
+  "uri": "https://www.discogs.com/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/5937277",
+  "videos": [
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "duration": 399,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "uri": "https://www.youtube.com/watch?v=Cev1KjH6StE"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "duration": 182,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "uri": "https://www.youtube.com/watch?v=HC1MmjPu3Xo"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "duration": 417,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "uri": "https://www.youtube.com/watch?v=nMB6erq9SXc"
+    },
+    {
+      "description": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "duration": 203,
+      "embed": true,
+      "title": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "uri": "https://www.youtube.com/watch?v=lp0J_Sv_Q3o"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "duration": 323,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=pEDhhxPqTfg"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "duration": 438,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=s9xZxT7Fesg"
+    }
+  ],
+  "year": 2014
+}

@@ -1,0 +1,181 @@
+{
+  "artists": [
+    {
+      "anv": "",
+      "id": 2613349,
+      "join": "Feat.",
+      "name": "Alle Farben",
+      "resource_url": "https://api.discogs.com/artists/2613349",
+      "role": "",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3841511,
+      "join": "",
+      "name": "Graham Candy",
+      "resource_url": "https://api.discogs.com/artists/3841511",
+      "role": "",
+      "tracks": ""
+    }
+  ],
+  "artists_sort": "Alle Farben Feat. Graham Candy",
+  "community": {
+    "contributors": [
+      {
+        "resource_url": "https://api.discogs.com/users/gizmo10",
+        "username": "gizmo10"
+      },
+      {
+        "resource_url": "https://api.discogs.com/users/BlackPanther",
+        "username": "BlackPanther"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "have": 5,
+    "rating": {
+      "average": 1.0,
+      "count": 2
+    },
+    "status": "Accepted",
+    "submitter": {
+      "resource_url": "https://api.discogs.com/users/gizmo10",
+      "username": "gizmo10"
+    },
+    "want": 0
+  },
+  "companies": [],
+  "country": "Germany",
+  "data_quality": "Needs Vote",
+  "date_added": "2014-06-01T04:24:44-07:00",
+  "date_changed": "2014-06-27T11:27:45-07:00",
+  "extraartists": [],
+  "format_quantity": 0,
+  "formats": [
+    {
+      "descriptions": [
+        "MP3"
+      ],
+      "name": "File",
+      "qty": "3",
+      "text": "320 kbps"
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "id": 5750023,
+  "identifiers": [],
+  "images": [
+    {
+      "height": 500,
+      "resource_url": "https://img.discogs.com/f3JMG0NoDPpy77oPyJLdOuVc-1Y=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5750023-1401621893-1416.jpeg.jpg",
+      "type": "secondary",
+      "uri": "https://img.discogs.com/f3JMG0NoDPpy77oPyJLdOuVc-1Y=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5750023-1401621893-1416.jpeg.jpg",
+      "uri150": "https://img.discogs.com/LY3r81YhGZlYYIfJ0JC6pzSQVPU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5750023-1401621893-1416.jpeg.jpg",
+      "width": 500
+    }
+  ],
+  "labels": [
+    {
+      "catno": "SYN001",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 697351,
+      "name": "Synesthesia (2)",
+      "resource_url": "https://api.discogs.com/labels/697351"
+    }
+  ],
+  "lowest_price": null,
+  "master_id": 702664,
+  "master_url": "https://api.discogs.com/masters/702664",
+  "num_for_sale": 0,
+  "released": "2014-04-04",
+  "released_formatted": "04 Apr 2014",
+  "resource_url": "https://api.discogs.com/releases/5750023",
+  "series": [],
+  "status": "Accepted",
+  "styles": [
+    "Deep House",
+    "Tech House"
+  ],
+  "thumb": "https://img.discogs.com/LY3r81YhGZlYYIfJ0JC6pzSQVPU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5750023-1401621893-1416.jpeg.jpg",
+  "title": "She Moves (Far Away)",
+  "tracklist": [
+    {
+      "duration": "3:59",
+      "position": "1",
+      "title": "She Moves (Far Away) (Extended Mix)",
+      "type_": "track"
+    },
+    {
+      "duration": "6:56",
+      "position": "2",
+      "title": "She Moves (Far Away) (Club Mix)",
+      "type_": "track"
+    },
+    {
+      "duration": "6:38",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 3365389,
+          "join": "",
+          "name": "Lexer",
+          "resource_url": "https://api.discogs.com/artists/3365389",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "3",
+      "title": "She Moves (Far Away) (Lexer Remix)",
+      "type_": "track"
+    }
+  ],
+  "uri": "https://www.discogs.com/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/5750023",
+  "videos": [
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "duration": 399,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "uri": "https://www.youtube.com/watch?v=Cev1KjH6StE"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "duration": 182,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "uri": "https://www.youtube.com/watch?v=HC1MmjPu3Xo"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "duration": 417,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "uri": "https://www.youtube.com/watch?v=nMB6erq9SXc"
+    },
+    {
+      "description": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "duration": 203,
+      "embed": true,
+      "title": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "uri": "https://www.youtube.com/watch?v=lp0J_Sv_Q3o"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "duration": 323,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=pEDhhxPqTfg"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "duration": 438,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=s9xZxT7Fesg"
+    }
+  ],
+  "year": 2014
+}

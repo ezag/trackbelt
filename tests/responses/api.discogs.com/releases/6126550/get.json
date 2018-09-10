@@ -1,0 +1,210 @@
+{
+  "artists": [
+    {
+      "anv": "",
+      "id": 2613349,
+      "join": "Feat.",
+      "name": "Alle Farben",
+      "resource_url": "https://api.discogs.com/artists/2613349",
+      "role": "",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3841511,
+      "join": "",
+      "name": "Graham Candy",
+      "resource_url": "https://api.discogs.com/artists/3841511",
+      "role": "",
+      "tracks": ""
+    }
+  ],
+  "artists_sort": "Alle Farben Feat. Graham Candy",
+  "community": {
+    "contributors": [
+      {
+        "resource_url": "https://api.discogs.com/users/LikeTheSunshine",
+        "username": "LikeTheSunshine"
+      },
+      {
+        "resource_url": "https://api.discogs.com/users/Quatroo66",
+        "username": "Quatroo66"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "have": 0,
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "status": "Accepted",
+    "submitter": {
+      "resource_url": "https://api.discogs.com/users/LikeTheSunshine",
+      "username": "LikeTheSunshine"
+    },
+    "want": 4
+  },
+  "companies": [],
+  "country": "Sweden",
+  "data_quality": "Needs Vote",
+  "date_added": "2014-09-26T03:37:12-07:00",
+  "date_changed": "2014-11-24T15:08:16-08:00",
+  "estimated_weight": 85,
+  "extraartists": [
+    {
+      "anv": "",
+      "id": 3841511,
+      "join": "",
+      "name": "Graham Candy",
+      "resource_url": "https://api.discogs.com/artists/3841511",
+      "role": "Featuring",
+      "tracks": ""
+    }
+  ],
+  "format_quantity": 1,
+  "formats": [
+    {
+      "descriptions": [
+        "Single",
+        "Promo"
+      ],
+      "name": "CDr",
+      "qty": "1"
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "id": 6126550,
+  "identifiers": [],
+  "images": [
+    {
+      "height": 450,
+      "resource_url": "https://img.discogs.com/jzgIfklHoewcl_q6-whXEmfMnlk=/fit-in/600x450/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6126550-1411733461-7827.jpeg.jpg",
+      "type": "primary",
+      "uri": "https://img.discogs.com/jzgIfklHoewcl_q6-whXEmfMnlk=/fit-in/600x450/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6126550-1411733461-7827.jpeg.jpg",
+      "uri150": "https://img.discogs.com/W2r5wO7tMrzT6OXWP4yc9F5xA2I=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6126550-1411733461-7827.jpeg.jpg",
+      "width": 600
+    }
+  ],
+  "labels": [
+    {
+      "catno": "none",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 50988,
+      "name": "Catchy Tunes (2)",
+      "resource_url": "https://api.discogs.com/labels/50988"
+    }
+  ],
+  "lowest_price": 9.03,
+  "master_id": 702664,
+  "master_url": "https://api.discogs.com/masters/702664",
+  "notes": "Issued in a stickered plastic sleeve.",
+  "num_for_sale": 2,
+  "released": "2014",
+  "released_formatted": "2014",
+  "resource_url": "https://api.discogs.com/releases/6126550",
+  "series": [],
+  "status": "Accepted",
+  "styles": [
+    "Deep House",
+    "House"
+  ],
+  "thumb": "https://img.discogs.com/W2r5wO7tMrzT6OXWP4yc9F5xA2I=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6126550-1411733461-7827.jpeg.jpg",
+  "title": "She Moves",
+  "tracklist": [
+    {
+      "duration": "3:12",
+      "position": "1",
+      "title": "She Moves (Original Version)",
+      "type_": "track"
+    },
+    {
+      "duration": "6:56",
+      "position": "2",
+      "title": "She Moves (Club Mix)",
+      "type_": "track"
+    },
+    {
+      "duration": "5:22",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 3329373,
+          "join": "",
+          "name": "Bakermat",
+          "resource_url": "https://api.discogs.com/artists/3329373",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "3",
+      "title": "She Moves (Bakermat Remix)",
+      "type_": "track"
+    },
+    {
+      "duration": "7:18",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 514672,
+          "join": "",
+          "name": "Goldfish (4)",
+          "resource_url": "https://api.discogs.com/artists/514672",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "4",
+      "title": "She Moves (Goldfish Remix)",
+      "type_": "track"
+    }
+  ],
+  "uri": "https://www.discogs.com/Alle-Farben-Feat-Graham-Candy-She-Moves/release/6126550",
+  "videos": [
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "duration": 399,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "uri": "https://www.youtube.com/watch?v=Cev1KjH6StE"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "duration": 182,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "uri": "https://www.youtube.com/watch?v=HC1MmjPu3Xo"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "duration": 417,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "uri": "https://www.youtube.com/watch?v=nMB6erq9SXc"
+    },
+    {
+      "description": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "duration": 203,
+      "embed": true,
+      "title": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "uri": "https://www.youtube.com/watch?v=lp0J_Sv_Q3o"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "duration": 323,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=pEDhhxPqTfg"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "duration": 438,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=s9xZxT7Fesg"
+    }
+  ],
+  "year": 2014
+}

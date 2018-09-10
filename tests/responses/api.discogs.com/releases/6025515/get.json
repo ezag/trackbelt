@@ -1,0 +1,181 @@
+{
+  "artists": [
+    {
+      "anv": "",
+      "id": 2613349,
+      "join": "Feat.",
+      "name": "Alle Farben",
+      "resource_url": "https://api.discogs.com/artists/2613349",
+      "role": "",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3841511,
+      "join": "",
+      "name": "Graham Candy",
+      "resource_url": "https://api.discogs.com/artists/3841511",
+      "role": "",
+      "tracks": ""
+    }
+  ],
+  "artists_sort": "Alle Farben Feat. Graham Candy",
+  "community": {
+    "contributors": [
+      {
+        "resource_url": "https://api.discogs.com/users/music-and-more",
+        "username": "music-and-more"
+      },
+      {
+        "resource_url": "https://api.discogs.com/users/rizzo_rosario",
+        "username": "rizzo_rosario"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "have": 0,
+    "rating": {
+      "average": 0.0,
+      "count": 0
+    },
+    "status": "Accepted",
+    "submitter": {
+      "resource_url": "https://api.discogs.com/users/music-and-more",
+      "username": "music-and-more"
+    },
+    "want": 0
+  },
+  "companies": [],
+  "country": "Netherlands",
+  "data_quality": "Needs Vote",
+  "date_added": "2014-08-27T02:34:32-07:00",
+  "date_changed": "2014-08-29T13:16:23-07:00",
+  "estimated_weight": 85,
+  "extraartists": [],
+  "format_quantity": 1,
+  "formats": [
+    {
+      "descriptions": [
+        "Single",
+        "Promo"
+      ],
+      "name": "CDr",
+      "qty": "1"
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "id": 6025515,
+  "identifiers": [
+    {
+      "type": "Rights Society",
+      "value": "BIEM GEMA"
+    }
+  ],
+  "images": [
+    {
+      "height": 600,
+      "resource_url": "https://img.discogs.com/novkP5rVWCy5rNg59YAIasT6GNo=/fit-in/596x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6025515-1409258097-5415.jpeg.jpg",
+      "type": "primary",
+      "uri": "https://img.discogs.com/novkP5rVWCy5rNg59YAIasT6GNo=/fit-in/596x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6025515-1409258097-5415.jpeg.jpg",
+      "uri150": "https://img.discogs.com/E0b_cql21DxbkJbk--72lGFXOmw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6025515-1409258097-5415.jpeg.jpg",
+      "width": 596
+    },
+    {
+      "height": 600,
+      "resource_url": "https://img.discogs.com/KQ8qtjYN0Wc5ZZiAVUYA0CIlZ54=/fit-in/597x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6025515-1409258101-1555.jpeg.jpg",
+      "type": "secondary",
+      "uri": "https://img.discogs.com/KQ8qtjYN0Wc5ZZiAVUYA0CIlZ54=/fit-in/597x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6025515-1409258101-1555.jpeg.jpg",
+      "uri150": "https://img.discogs.com/kuZgR4AHV89VG41hjZ4mOH-fMiI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6025515-1409258101-1555.jpeg.jpg",
+      "width": 597
+    },
+    {
+      "height": 599,
+      "resource_url": "https://img.discogs.com/COHYpDUz1MmRLcK8UPJv8EoaTlw=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6025515-1409258105-4760.jpeg.jpg",
+      "type": "secondary",
+      "uri": "https://img.discogs.com/COHYpDUz1MmRLcK8UPJv8EoaTlw=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6025515-1409258105-4760.jpeg.jpg",
+      "uri150": "https://img.discogs.com/8Q8x6Sicu0k3AJC2kZYGcynf6Hw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6025515-1409258105-4760.jpeg.jpg",
+      "width": 600
+    }
+  ],
+  "labels": [
+    {
+      "catno": "none",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 25487,
+      "name": "Sony Music",
+      "resource_url": "https://api.discogs.com/labels/25487"
+    }
+  ],
+  "lowest_price": 2.95,
+  "master_id": 702664,
+  "master_url": "https://api.discogs.com/masters/702664",
+  "notes": "released in a slim line jewel case with double sided insert",
+  "num_for_sale": 5,
+  "released": "2014",
+  "released_formatted": "2014",
+  "resource_url": "https://api.discogs.com/releases/6025515",
+  "series": [],
+  "status": "Accepted",
+  "styles": [
+    "Deep House",
+    "Tech House"
+  ],
+  "thumb": "https://img.discogs.com/E0b_cql21DxbkJbk--72lGFXOmw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6025515-1409258097-5415.jpeg.jpg",
+  "title": "She Moves (Far Away)",
+  "tracklist": [
+    {
+      "duration": "3:17",
+      "position": "1",
+      "title": "She Moves (Far Away)",
+      "type_": "track"
+    }
+  ],
+  "uri": "https://www.discogs.com/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/6025515",
+  "videos": [
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "duration": 399,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "uri": "https://www.youtube.com/watch?v=Cev1KjH6StE"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "duration": 182,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "uri": "https://www.youtube.com/watch?v=HC1MmjPu3Xo"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "duration": 417,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "uri": "https://www.youtube.com/watch?v=nMB6erq9SXc"
+    },
+    {
+      "description": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "duration": 203,
+      "embed": true,
+      "title": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "uri": "https://www.youtube.com/watch?v=lp0J_Sv_Q3o"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "duration": 323,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=pEDhhxPqTfg"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "duration": 438,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=s9xZxT7Fesg"
+    }
+  ],
+  "year": 2014
+}

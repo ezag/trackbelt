@@ -1,0 +1,290 @@
+{
+  "artists": [
+    {
+      "anv": "",
+      "id": 2613349,
+      "join": "",
+      "name": "Alle Farben",
+      "resource_url": "https://api.discogs.com/artists/2613349",
+      "role": "",
+      "tracks": ""
+    }
+  ],
+  "artists_sort": "Alle Farben",
+  "community": {
+    "contributors": [
+      {
+        "resource_url": "https://api.discogs.com/users/Ingo72",
+        "username": "Ingo72"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "have": 0,
+    "rating": {
+      "average": 4.0,
+      "count": 1
+    },
+    "status": "Accepted",
+    "submitter": {
+      "resource_url": "https://api.discogs.com/users/Ingo72",
+      "username": "Ingo72"
+    },
+    "want": 0
+  },
+  "companies": [
+    {
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 710867,
+      "name": "Guesstimate",
+      "resource_url": "https://api.discogs.com/labels/710867"
+    },
+    {
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 697351,
+      "name": "Synesthesia (2)",
+      "resource_url": "https://api.discogs.com/labels/697351"
+    },
+    {
+      "catno": "",
+      "entity_type": "5",
+      "entity_type_name": "Licensed To",
+      "id": 682581,
+      "name": "B1 Recordings GmbH",
+      "resource_url": "https://api.discogs.com/labels/682581"
+    }
+  ],
+  "country": "Germany",
+  "data_quality": "Needs Vote",
+  "date_added": "2015-07-31T15:02:39-07:00",
+  "date_changed": "2015-07-31T15:21:21-07:00",
+  "extraartists": [],
+  "format_quantity": 0,
+  "formats": [
+    {
+      "descriptions": [
+        "AAC",
+        "Album"
+      ],
+      "name": "File",
+      "qty": "15",
+      "text": "256 kbps"
+    }
+  ],
+  "genres": [
+    "Electronic",
+    "Pop"
+  ],
+  "id": 7302001,
+  "identifiers": [],
+  "images": [
+    {
+      "height": 500,
+      "resource_url": "https://img.discogs.com/zt5ZCGTUc3LWItarWXMrteFgNh8=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7302001-1438381169-5852.jpeg.jpg",
+      "type": "primary",
+      "uri": "https://img.discogs.com/zt5ZCGTUc3LWItarWXMrteFgNh8=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7302001-1438381169-5852.jpeg.jpg",
+      "uri150": "https://img.discogs.com/TdUjYWMm-Ef7hdSUqgzFa6S-X5o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7302001-1438381169-5852.jpeg.jpg",
+      "width": 500
+    }
+  ],
+  "labels": [
+    {
+      "catno": "none",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 114203,
+      "name": "B1 Recordings",
+      "resource_url": "https://api.discogs.com/labels/114203"
+    }
+  ],
+  "lowest_price": null,
+  "master_id": 716536,
+  "master_url": "https://api.discogs.com/masters/716536",
+  "notes": "℗ Guesstimate/Synesthesia under exclusive licence to B1Recordings GmbH, a Sony Music Entertainment Company. \r\n",
+  "num_for_sale": 0,
+  "released": "2014-05-22",
+  "released_formatted": "22 May 2014",
+  "resource_url": "https://api.discogs.com/releases/7302001",
+  "series": [],
+  "status": "Accepted",
+  "styles": [
+    "House",
+    "Deep House"
+  ],
+  "thumb": "https://img.discogs.com/TdUjYWMm-Ef7hdSUqgzFa6S-X5o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7302001-1438381169-5852.jpeg.jpg",
+  "title": "Synesthesia - I Think In Colours ",
+  "tracklist": [
+    {
+      "duration": "2:38",
+      "position": "1",
+      "title": "Intro",
+      "type_": "track"
+    },
+    {
+      "duration": "3:32",
+      "position": "2",
+      "title": "Leaves",
+      "type_": "track"
+    },
+    {
+      "duration": "4:44",
+      "position": "3",
+      "title": "Down",
+      "type_": "track"
+    },
+    {
+      "duration": "3:17",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 3841511,
+          "join": "",
+          "name": "Graham Candy",
+          "resource_url": "https://api.discogs.com/artists/3841511",
+          "role": "Featuring",
+          "tracks": ""
+        }
+      ],
+      "position": "4",
+      "title": "She Moves (Skip Version)",
+      "type_": "track"
+    },
+    {
+      "duration": "6:28",
+      "position": "5",
+      "title": "Synesthesia",
+      "type_": "track"
+    },
+    {
+      "duration": "4:34",
+      "position": "6",
+      "title": "Blue",
+      "type_": "track"
+    },
+    {
+      "duration": "3:24",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 3841511,
+          "join": "",
+          "name": "Graham Candy",
+          "resource_url": "https://api.discogs.com/artists/3841511",
+          "role": "Featuring",
+          "tracks": ""
+        }
+      ],
+      "position": "7",
+      "title": "Sometimes",
+      "type_": "track"
+    },
+    {
+      "duration": "3:49",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 2570269,
+          "join": "",
+          "name": "Lydmor",
+          "resource_url": "https://api.discogs.com/artists/2570269",
+          "role": "Featuring",
+          "tracks": ""
+        }
+      ],
+      "position": "8",
+      "title": "Because Of You",
+      "type_": "track"
+    },
+    {
+      "duration": "3:25",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 2570269,
+          "join": "",
+          "name": "Lydmor",
+          "resource_url": "https://api.discogs.com/artists/2570269",
+          "role": "Featuring",
+          "tracks": ""
+        }
+      ],
+      "position": "9",
+      "title": "On And On",
+      "type_": "track"
+    },
+    {
+      "duration": "3:24",
+      "extraartists": [
+        {
+          "anv": "Sway Clarke",
+          "id": 3543725,
+          "join": "",
+          "name": "Sway Clarke II",
+          "resource_url": "https://api.discogs.com/artists/3543725",
+          "role": "Featuring",
+          "tracks": ""
+        }
+      ],
+      "position": "10",
+      "title": "Lonley Land",
+      "type_": "track"
+    },
+    {
+      "duration": "4:02",
+      "position": "11",
+      "title": "Face To Facebook",
+      "type_": "track"
+    },
+    {
+      "duration": "4:05",
+      "position": "12",
+      "title": "D. Punk",
+      "type_": "track"
+    },
+    {
+      "duration": "6:56",
+      "position": "13",
+      "title": "Metaphysik Der Röhren",
+      "type_": "track"
+    },
+    {
+      "duration": "5:23",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 3329373,
+          "join": "",
+          "name": "Bakermat",
+          "resource_url": "https://api.discogs.com/artists/3329373",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "14",
+      "title": "She Moves (Far Away) (Bakermat Remix)",
+      "type_": "track"
+    },
+    {
+      "duration": "7:18",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 514672,
+          "join": "",
+          "name": "Goldfish (4)",
+          "resource_url": "https://api.discogs.com/artists/514672",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "15",
+      "title": "She Moves (Goldfish Remix) ",
+      "type_": "track"
+    }
+  ],
+  "uri": "https://www.discogs.com/Alle-Farben-Synesthesia-I-Think-In-Colours-/release/7302001",
+  "year": 2014
+}

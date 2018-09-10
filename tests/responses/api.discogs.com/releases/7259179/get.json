@@ -1,0 +1,255 @@
+{
+  "artists": [
+    {
+      "anv": "",
+      "id": 2613349,
+      "join": "Feat.",
+      "name": "Alle Farben",
+      "resource_url": "https://api.discogs.com/artists/2613349",
+      "role": "",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3841511,
+      "join": "",
+      "name": "Graham Candy",
+      "resource_url": "https://api.discogs.com/artists/3841511",
+      "role": "",
+      "tracks": ""
+    }
+  ],
+  "artists_sort": "Alle Farben Feat. Graham Candy",
+  "community": {
+    "contributors": [
+      {
+        "resource_url": "https://api.discogs.com/users/DiscoMagic",
+        "username": "DiscoMagic"
+      },
+      {
+        "resource_url": "https://api.discogs.com/users/ebz777",
+        "username": "ebz777"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "have": 0,
+    "rating": {
+      "average": 4.0,
+      "count": 1
+    },
+    "status": "Accepted",
+    "submitter": {
+      "resource_url": "https://api.discogs.com/users/DiscoMagic",
+      "username": "DiscoMagic"
+    },
+    "want": 0
+  },
+  "companies": [
+    {
+      "catno": "",
+      "entity_type": "5",
+      "entity_type_name": "Licensed To",
+      "id": 682581,
+      "name": "B1 Recordings GmbH",
+      "resource_url": "https://api.discogs.com/labels/682581"
+    },
+    {
+      "catno": "",
+      "entity_type": "5",
+      "entity_type_name": "Licensed To",
+      "id": 126379,
+      "name": "Sony Music Entertainment (Germany) GmbH",
+      "resource_url": "https://api.discogs.com/labels/126379"
+    }
+  ],
+  "country": "Germany",
+  "data_quality": "Needs Vote",
+  "date_added": "2015-07-20T03:43:36-07:00",
+  "date_changed": "2015-08-30T13:45:57-07:00",
+  "extraartists": [
+    {
+      "anv": "",
+      "id": 3845146,
+      "join": "",
+      "name": "Andreas Huber (4)",
+      "resource_url": "https://api.discogs.com/artists/3845146",
+      "role": "Composed By",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3810105,
+      "join": "",
+      "name": "Frans Zimmer",
+      "resource_url": "https://api.discogs.com/artists/3810105",
+      "role": "Composed By",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3843684,
+      "join": "",
+      "name": "Jan Hammele",
+      "resource_url": "https://api.discogs.com/artists/3843684",
+      "role": "Composed By",
+      "tracks": ""
+    },
+    {
+      "anv": "",
+      "id": 3841511,
+      "join": "",
+      "name": "Graham Candy",
+      "resource_url": "https://api.discogs.com/artists/3841511",
+      "role": "Lyrics By [Uncredited]",
+      "tracks": ""
+    }
+  ],
+  "format_quantity": 0,
+  "formats": [
+    {
+      "descriptions": [
+        "AAC",
+        "Single"
+      ],
+      "name": "File",
+      "qty": "3",
+      "text": "256 kbps"
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "id": 7259179,
+  "identifiers": [],
+  "images": [
+    {
+      "height": 170,
+      "resource_url": "https://img.discogs.com/J915JUGlqF8aXOBQM1rUWEzyo6k=/fit-in/170x170/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7259179-1437389601-5331.jpeg.jpg",
+      "type": "primary",
+      "uri": "https://img.discogs.com/J915JUGlqF8aXOBQM1rUWEzyo6k=/fit-in/170x170/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7259179-1437389601-5331.jpeg.jpg",
+      "uri150": "https://img.discogs.com/0LsEzqt5WdeYUCWbFzSEbaPYQAs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7259179-1437389601-5331.jpeg.jpg",
+      "width": 170
+    }
+  ],
+  "labels": [
+    {
+      "catno": "none",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 710867,
+      "name": "Guesstimate",
+      "resource_url": "https://api.discogs.com/labels/710867"
+    },
+    {
+      "catno": "none",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 697351,
+      "name": "Synesthesia (2)",
+      "resource_url": "https://api.discogs.com/labels/697351"
+    }
+  ],
+  "lowest_price": null,
+  "master_id": 702664,
+  "master_url": "https://api.discogs.com/masters/702664",
+  "num_for_sale": 0,
+  "released": "2014-05-25",
+  "released_formatted": "25 May 2014",
+  "resource_url": "https://api.discogs.com/releases/7259179",
+  "series": [],
+  "status": "Accepted",
+  "styles": [
+    "Deep House",
+    "Tech House"
+  ],
+  "thumb": "https://img.discogs.com/0LsEzqt5WdeYUCWbFzSEbaPYQAs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7259179-1437389601-5331.jpeg.jpg",
+  "title": "She Moves (Far Away)",
+  "tracklist": [
+    {
+      "duration": "3:59",
+      "position": "1",
+      "title": "She Moves (Far Away) (Extended Mix)",
+      "type_": "track"
+    },
+    {
+      "duration": "6:33",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 3365389,
+          "join": "",
+          "name": "Lexer",
+          "resource_url": "https://api.discogs.com/artists/3365389",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "2",
+      "title": "She Moves (Far Away) (Lexer Remix)",
+      "type_": "track"
+    },
+    {
+      "duration": "7:18",
+      "extraartists": [
+        {
+          "anv": "",
+          "id": 514672,
+          "join": "",
+          "name": "Goldfish (4)",
+          "resource_url": "https://api.discogs.com/artists/514672",
+          "role": "Remix",
+          "tracks": ""
+        }
+      ],
+      "position": "3",
+      "title": "She Moves (Goldfish Remix)",
+      "type_": "track"
+    }
+  ],
+  "uri": "https://www.discogs.com/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/7259179",
+  "videos": [
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "duration": 399,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Lexer Remix)",
+      "uri": "https://www.youtube.com/watch?v=Cev1KjH6StE"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "duration": 182,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Street Video)",
+      "uri": "https://www.youtube.com/watch?v=HC1MmjPu3Xo"
+    },
+    {
+      "description": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "duration": 417,
+      "embed": true,
+      "title": "Alle Farben - She Moves (Far Away) feat. Graham Candy (Club Mix)",
+      "uri": "https://www.youtube.com/watch?v=nMB6erq9SXc"
+    },
+    {
+      "description": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "duration": 203,
+      "embed": true,
+      "title": "Alle Farben - She Moves feat. Graham Candy (Official Video)",
+      "uri": "https://www.youtube.com/watch?v=lp0J_Sv_Q3o"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "duration": 323,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Bakermat Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=pEDhhxPqTfg"
+    },
+    {
+      "description": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "duration": 438,
+      "embed": true,
+      "title": "Alle Farben feat. Graham Candy - She Moves (Far Away) [Goldfish Remix] [Cover Art]",
+      "uri": "https://www.youtube.com/watch?v=s9xZxT7Fesg"
+    }
+  ],
+  "year": 2014
+}

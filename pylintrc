@@ -1,2 +1,5 @@
+[master]
+init-hook=sys.path.insert(0, './venv/lib/python3.7/site-packages')
+
 [messages control]
 disable=missing-docstring,too-few-public-methods

@@ -1,0 +1,543 @@
+{
+  "pagination": {
+    "items": 13,
+    "page": 1,
+    "pages": 1,
+    "per_page": 50,
+    "urls": {}
+  },
+  "results": [
+    {
+      "barcode": [],
+      "catno": "none",
+      "community": {
+        "have": 0,
+        "want": 0
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/zt5ZCGTUc3LWItarWXMrteFgNh8=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7302001-1438381169-5852.jpeg.jpg",
+      "format": [
+        "File",
+        "AAC",
+        "Album"
+      ],
+      "genre": [
+        "Electronic",
+        "Pop"
+      ],
+      "id": 7302001,
+      "label": [
+        "B1 Recordings",
+        "Guesstimate",
+        "Synesthesia",
+        "B1 Recordings GmbH"
+      ],
+      "resource_url": "https://api.discogs.com/releases/7302001",
+      "style": [
+        "House",
+        "Deep House"
+      ],
+      "thumb": "https://img.discogs.com/TdUjYWMm-Ef7hdSUqgzFa6S-X5o=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7302001-1438381169-5852.jpeg.jpg",
+      "title": "Alle Farben - Synesthesia - I Think In Colours ",
+      "type": "release",
+      "uri": "/Alle-Farben-Synesthesia-I-Think-In-Colours-/release/7302001",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [],
+      "catno": "none",
+      "community": {
+        "have": 0,
+        "want": 4
+      },
+      "country": "Sweden",
+      "cover_image": "https://img.discogs.com/jzgIfklHoewcl_q6-whXEmfMnlk=/fit-in/600x450/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6126550-1411733461-7827.jpeg.jpg",
+      "format": [
+        "CDr",
+        "Single",
+        "Promo"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 6126550,
+      "label": [
+        "Catchy Tunes"
+      ],
+      "resource_url": "https://api.discogs.com/releases/6126550",
+      "style": [
+        "Deep House",
+        "House"
+      ],
+      "thumb": "https://img.discogs.com/W2r5wO7tMrzT6OXWP4yc9F5xA2I=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6126550-1411733461-7827.jpeg.jpg",
+      "title": "Alle Farben Feat. Graham Candy - She Moves",
+      "type": "release",
+      "uri": "/Alle-Farben-Feat-Graham-Candy-She-Moves/release/6126550",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [],
+      "catno": "none",
+      "community": {
+        "have": 0,
+        "want": 0
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/J915JUGlqF8aXOBQM1rUWEzyo6k=/fit-in/170x170/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7259179-1437389601-5331.jpeg.jpg",
+      "format": [
+        "File",
+        "AAC",
+        "Single"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 7259179,
+      "label": [
+        "Guesstimate",
+        "Synesthesia",
+        "B1 Recordings GmbH",
+        "Sony Music Entertainment (Germany) GmbH"
+      ],
+      "resource_url": "https://api.discogs.com/releases/7259179",
+      "style": [
+        "Deep House",
+        "Tech House"
+      ],
+      "thumb": "https://img.discogs.com/0LsEzqt5WdeYUCWbFzSEbaPYQAs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7259179-1437389601-5331.jpeg.jpg",
+      "title": "Alle Farben Feat. Graham Candy - She Moves (Far Away)",
+      "type": "release",
+      "uri": "/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/7259179",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [
+        "8 88430 92871 8",
+        "BIEM/GEMA",
+        "LC 32820"
+      ],
+      "catno": "88843092871",
+      "community": {
+        "have": 91,
+        "want": 40
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/w8Xiy6O-IF6PLJ488YT4B2dap04=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5937277-1406797357-5349.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "45 RPM",
+        "12\"",
+        "Maxi-Single",
+        "Picture Disc",
+        "Limited Edition"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 5937277,
+      "label": [
+        "Guesstimate",
+        "Synesthesia",
+        "B1 Recordings"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5937277",
+      "style": [
+        "Deep House",
+        "Tech House"
+      ],
+      "thumb": "https://img.discogs.com/Y5BOqTPmr74865zOgxaOwKQ3TiQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5937277-1406797357-5349.jpeg.jpg",
+      "title": "Alle Farben Feat. Graham Candy - She Moves (Far Away)",
+      "type": "release",
+      "uri": "/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/5937277",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [],
+      "catno": "SYN001",
+      "community": {
+        "have": 5,
+        "want": 0
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/f3JMG0NoDPpy77oPyJLdOuVc-1Y=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5750023-1401621893-1416.jpeg.jpg",
+      "format": [
+        "File",
+        "MP3"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 5750023,
+      "label": [
+        "Synesthesia"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5750023",
+      "style": [
+        "Deep House",
+        "Tech House"
+      ],
+      "thumb": "https://img.discogs.com/LY3r81YhGZlYYIfJ0JC6pzSQVPU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5750023-1401621893-1416.jpeg.jpg",
+      "title": "Alle Farben Feat. Graham Candy - She Moves (Far Away)",
+      "type": "release",
+      "uri": "/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/5750023",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [
+        "888430763425",
+        "A0102316363-0101 15 A00",
+        "IFPI L555",
+        "IFPI 942Q",
+        "LC 32820",
+        "GEMA",
+        "BIEM/GEMA"
+      ],
+      "catno": "88843076342",
+      "community": {
+        "have": 17,
+        "want": 4
+      },
+      "country": "Germany, Austria, & Switzerland",
+      "cover_image": "https://img.discogs.com/pE4lLH1JNmLiecrITVPFhYIFC30=/fit-in/500x435/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5830756-1403893604-6864.jpeg.jpg",
+      "format": [
+        "CD",
+        "Single"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 5830756,
+      "label": [
+        "Synesthesia",
+        "Sony DADC"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5830756",
+      "style": [
+        "Deep House",
+        "Tech House"
+      ],
+      "thumb": "https://img.discogs.com/c_z4AdsKH9hZrEp4wfvLovUV-GA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5830756-1403893604-6864.jpeg.jpg",
+      "title": "Alle Farben Feat. Graham Candy - She Moves (Far Away)",
+      "type": "release",
+      "uri": "/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/5830756",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [
+        "BIEM GEMA"
+      ],
+      "catno": "none",
+      "community": {
+        "have": 0,
+        "want": 0
+      },
+      "country": "Netherlands",
+      "cover_image": "https://img.discogs.com/novkP5rVWCy5rNg59YAIasT6GNo=/fit-in/596x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6025515-1409258097-5415.jpeg.jpg",
+      "format": [
+        "CDr",
+        "Single",
+        "Promo"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 6025515,
+      "label": [
+        "Sony Music"
+      ],
+      "resource_url": "https://api.discogs.com/releases/6025515",
+      "style": [
+        "Deep House",
+        "Tech House"
+      ],
+      "thumb": "https://img.discogs.com/E0b_cql21DxbkJbk--72lGFXOmw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6025515-1409258097-5415.jpeg.jpg",
+      "title": "Alle Farben Feat. Graham Candy - She Moves (Far Away)",
+      "type": "release",
+      "uri": "/Alle-Farben-Feat-Graham-Candy-She-Moves-Far-Away/release/6025515",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [
+        "8 88430 76321 0",
+        "888430763210",
+        "GEMA",
+        "LC 32820"
+      ],
+      "catno": "88843076321",
+      "community": {
+        "have": 330,
+        "want": 75
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/1KjirMFmyRSJP7AJADCSU5ZZYk8=/fit-in/550x544/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5723006-1400923788-7350.jpeg.jpg",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "CD",
+        "Album"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 5723006,
+      "label": [
+        "B1 Recordings",
+        "Guesstimate/Synesthesia",
+        "Guesstimate/Synesthesia",
+        "Sony Music Entertainment",
+        "Guesstimate GmbH",
+        "Rolf Budde Musikverlag",
+        "BMG Edition Crazy Planet Records",
+        "Copyright Control",
+        "MPO",
+        "B1 Recordings GmbH",
+        "Riverside Studios, Berlin"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5723006",
+      "style": [
+        "House",
+        "Electro"
+      ],
+      "thumb": "https://img.discogs.com/LKdrwaDVmQ-xZZutbqCGgelqEkk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5723006-1400923788-7350.jpeg.jpg",
+      "title": "Alle Farben - Synesthesia - I Think In Colours",
+      "type": "release",
+      "uri": "/Alle-Farben-Synesthesia-I-Think-In-Colours/release/5723006",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [
+        "8 88430 76312 8",
+        "888430763128",
+        "Sony DADC A0102321455-0101 15 A01",
+        "Sony DADC A0102321455-0101 15 A00",
+        "IFPI L555",
+        "IFPI 94Z4",
+        "IFPI 945Q",
+        "GEMA",
+        "LC 32820"
+      ],
+      "catno": "88843076312",
+      "community": {
+        "have": 62,
+        "want": 6
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/zr_R41lDK4lie9IAB0A5sCUhSSg=/fit-in/600x542/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5946283-1407067295-6966.jpeg.jpg",
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "genre": [
+        "Electronic",
+        "Pop"
+      ],
+      "id": 5946283,
+      "label": [
+        "B1 Recordings",
+        "Guesstimate/Synesthesia",
+        "Guesstimate/Synesthesia",
+        "B1 Recordings",
+        "Sony Music Entertainment",
+        "Sony DADC",
+        "Riverside Studios, Berlin"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5946283",
+      "style": [
+        "House"
+      ],
+      "thumb": "https://img.discogs.com/lkK0Xu1HbZKNroa38F_GvjMkiKU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5946283-1407067295-6966.jpeg.jpg",
+      "title": "Alle Farben - Synesthesia - I Think In Colours ",
+      "type": "release",
+      "uri": "/Alle-Farben-Synesthesia-I-Think-In-Colours-/release/5946283",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [],
+      "catno": "none",
+      "community": {
+        "have": 2,
+        "want": 3
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/G4I7cH_tE_I7Tb4uADnpymkkPuo=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5694904-1404376007-5231.jpeg.jpg",
+      "format": [
+        "CD",
+        "Promo"
+      ],
+      "genre": [
+        "Electronic",
+        "Pop"
+      ],
+      "id": 5694904,
+      "label": [
+        "Guesstimate",
+        "B1 Recordings"
+      ],
+      "resource_url": "https://api.discogs.com/releases/5694904",
+      "style": [
+        "House"
+      ],
+      "thumb": "https://img.discogs.com/mqGO4mhrppkQKgkNb7PuasFdELU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-5694904-1404376007-5231.jpeg.jpg",
+      "title": "Alle Farben - Synesthesia - I Think In Colours ",
+      "type": "release",
+      "uri": "/Alle-Farben-Synesthesia-I-Think-In-Colours-/release/5694904",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [],
+      "catno": "none",
+      "community": {
+        "have": 2,
+        "want": 0
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/eBMArVHqf-xKByx_h2I0vqlxT3A=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7554732-1443909329-5022.jpeg.jpg",
+      "format": [
+        "File",
+        "AAC"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 7554732,
+      "label": [
+        "Guesstimate",
+        "Guesstimate GmbH"
+      ],
+      "resource_url": "https://api.discogs.com/releases/7554732",
+      "style": [
+        "Deep House"
+      ],
+      "thumb": "https://img.discogs.com/Bnu3r2ad6izJw5wXIUS5F_-uG6M=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7554732-1443909329-5022.jpeg.jpg",
+      "title": "Hundreds (2) Presented By Alle Farben - She Moves / Our Past (Alle Farben Remix)",
+      "type": "release",
+      "uri": "/Hundreds-2-Presented-By-Alle-Farben-She-Moves-Our-Past-Alle-Farben-Remix/release/7554732",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [
+        "886444736688",
+        "B00LNHQXSM"
+      ],
+      "catno": "none",
+      "community": {
+        "have": 0,
+        "want": 0
+      },
+      "country": "Germany",
+      "cover_image": "https://img.discogs.com/uyeUHo0MDOqQzMmW3XGC7mv4adM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6681810-1424528893-3441.jpeg.jpg",
+      "format": [
+        "File",
+        "EP"
+      ],
+      "genre": [
+        "Pop"
+      ],
+      "id": 6681810,
+      "label": [
+        "B1 Recordings"
+      ],
+      "resource_url": "https://api.discogs.com/releases/6681810",
+      "style": [],
+      "thumb": "https://img.discogs.com/u7M6r5RrpVGKs0_gNpNX4p4YQzs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6681810-1424528893-3441.jpeg.jpg",
+      "title": "Alle Farben Presents Graham Candy & Lydmor - She Moves (Acoustic EP)",
+      "type": "release",
+      "uri": "/Alle-Farben-Presents-Graham-Candy-Lydmor-She-Moves-Acoustic-EP/release/6681810",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2014"
+    },
+    {
+      "barcode": [
+        "8 89854 35012 3",
+        "889854350123",
+        "LC 33737",
+        "BIEM/GEMA"
+      ],
+      "catno": "SYN020",
+      "community": {
+        "have": 4,
+        "want": 3
+      },
+      "country": "Europe",
+      "cover_image": "https://img.discogs.com/bCgkU7q-uXykMs1KU1TDwWvu73k=/fit-in/600x590/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-10624347-1501250639-1875.jpeg.jpg",
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "genre": [
+        "Electronic"
+      ],
+      "id": 10624347,
+      "label": [
+        "Synesthesia",
+        "Synesthesia",
+        "Synesthesia Recordings",
+        "Synesthesia Recordings",
+        "Sony Music Entertainment",
+        "Mixmastering",
+        "Mixmastering"
+      ],
+      "resource_url": "https://api.discogs.com/releases/10624347",
+      "style": [
+        "House"
+      ],
+      "thumb": "https://img.discogs.com/V6vZ27Pv7m503nXvxuy9j2WHPu4=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10624347-1501250639-1875.jpeg.jpg",
+      "title": "Alle Farben - Live Circus",
+      "type": "release",
+      "uri": "/Alle-Farben-Live-Circus/release/10624347",
+      "user_data": {
+        "in_collection": false,
+        "in_wantlist": false
+      },
+      "year": "2017"
+    }
+  ]
+}

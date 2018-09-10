@@ -48,5 +48,19 @@ def test_discogs_search_basic(monkeypatch):
         title='Forget',
         duration='3:46',
         release_id=5914226,
-        track_position=3,
+        master_id=None,
+        track_position='3',
+    )
+
+
+def test_discogs_search_main_of_master(monkeypatch):
+    monkeypatch.setattr(requests, 'request', mock_request)
+    result = search_discogs('alle farben', 'she moves')
+    assert result == dict(
+        artist='Alle Farben',
+        title='She Moves',
+        duration='3:17',
+        release_id=5723006,
+        master_id=716536,
+        track_position='CD4',
     )
