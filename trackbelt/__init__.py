@@ -3,6 +3,7 @@ import json
 import logging
 import os.path
 
+from apiclient.discovery import build
 from bs4 import BeautifulSoup
 from xdg import XDG_CONFIG_HOME
 import click
@@ -21,10 +22,15 @@ def discogs_client_from_config(trackbelt_config):
         'trackbelt/1.0', user_token=trackbelt_config['discogs']['user_token'])
 
 
+def youtube_client_from_config(trackbelt_config):
+    return build('youtube', 'v3', developerKey=trackbelt_config['youtube']['api_key'])
+
+
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 config = read_config()
 discogs = discogs_client_from_config(config)
+youtube = youtube_client_from_config(config)
 
 
 def decompose_query(query):
@@ -40,10 +46,12 @@ def search_track(query):
     log.info('Decomposed query: %s', json.dumps(kwargs, indent=2))
     discogs_result = search_discogs(**kwargs)
     soundcloud_result = search_soundcloud(**kwargs)
+    youtube_result = search_youtube(**kwargs)
     return dict(
         query=query,
         discogs=discogs_result,
         soundcloud=soundcloud_result,
+        youtube=youtube_result,
     )
 
 
@@ -94,6 +102,24 @@ def search_discogs(artist, title):
                 track_position=track.position,
             )
         log.debug('Skipping release %d because none of tracks matched', result.id)
+
+
+def search_youtube(artist, title):
+    results = youtube.search().list(
+        type='video',
+        part='id,snippet',
+        q='{} - {}'.format(artist, title)
+    ).execute()
+    id_ = results['items'][0]['id']['videoId']
+    videos = youtube.videos().list(
+        part='contentDetails',
+        id=id_
+    ).execute()
+    duration = videos['items'][0]['contentDetails']['duration']
+    return dict(
+        youtube_id=id_,
+        duration=duration,
+    )
 
 
 def search_soundcloud(artist, title):
