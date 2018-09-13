@@ -12,7 +12,7 @@ import yaml
 
 
 def read_config():
-    with open(os.path.join(XDG_CONFIG_HOME, 'vkbelt', 'config.yaml')) as f:
+    with open(os.path.join(XDG_CONFIG_HOME, 'trackbelt', 'config.yaml')) as f:
         return yaml.load(f)
 
 
